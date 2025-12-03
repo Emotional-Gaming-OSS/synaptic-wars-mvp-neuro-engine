@@ -1,7 +1,7 @@
 # Synaptic Wars MVP – Neuro Engine
 
 ## Overview
-Synaptic Wars MVP is a ready-to-run, single-page demo showcasing a Neuro Engine that adapts gameplay to player emotional state. It uses simulated DeepSeek-powered analysis, an EEG data stream, and real-time adaptations visible on a live dashboard.
+Synaptic Wars MVP is a ready-to-run, single-page demo showcasing a Neuro Engine that adapts gameplay to player emotional state. It uses simulated DeepSeekR1-powered analysis, an EEG data stream, and real-time adaptations visible on a live dashboard.
 
 ## Features
 - NeuroBridge: AI emotional analysis with simulated DeepSeek responses
@@ -69,7 +69,7 @@ synaptic-wars-mvp/
 - Canvas: the playfield where the player and tanglers are drawn.
 - Controls overlay: three ability buttons (`Q/W/E`) and EEG mode buttons.
 - Status bar: shows Tanglers, Energy, and Score.
-- Neuro Dashboard: live emotional state, adaptations, performance, and controls (top-right).
+- Neuro Dashboard: live emotional state, adaptations, performance, and controls (top-right and simulted, real resources will be rolled out in the official release).
 
 ### 3) Move and Look Around
 - Use `W/A/S/D` to move the player.
@@ -116,5 +116,5 @@ synaptic-wars-mvp/
 
 ### 10) FAQ
 - Why do enemies feel different? The Neuro Engine adapts difficulty, pacing, and behaviors based on EEG mode and emotional analysis.
-- Can I use a real EEG? This MVP uses a simulator; swap out `NeuroBridge.callDeepSeekAPI` and `EEGSimulator` for real sources.
+- Can I use a real EEG? NO! This MVP uses a simulator.
 - How do I reset progress? Click “Reset Adaptations” in the dashboard; this clears adaptation history and metrics.
