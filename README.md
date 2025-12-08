@@ -26,12 +26,12 @@ synaptic-wars-mvp/
 │   └── adaptive-abilities.js
 ├── ui/
 │   └── neuro-dashboard-enhanced.js
-├── mvp-main.js
-└── index-mvp.html
+├── main.js
+└── index.html
 ```
 
 ## Run
-- Open `index-mvp.html` directly in a modern browser
+- Open `index.html` directly in a modern browser
 - If your browser restricts ES module imports from `file://`, serve the folder:
   - `python -m http.server 8000` in the `synaptic-wars-mvp` directory
   - Open `http://localhost:8000/index-mvp.html`
@@ -49,8 +49,8 @@ synaptic-wars-mvp/
 - `E` – Quantum Entanglement (utility)
 
 ## Notes
-- Emotional analysis is simulated for MVP; replace `NeuroBridge.callDeepSeekAPI` with real API calls for production
-- Ability button status mapping is handled in `index-mvp.html` to match Q/W/E
+- Emotional analysis is simulated for MVP.
+- Ability button status mapping is handled in `index.html` to match Q/W/E
 
 ## Troubleshooting
 - Blank page or module errors: use the local server option
